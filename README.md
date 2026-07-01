@@ -92,6 +92,11 @@ sequenceDiagram
 
 ---
 
+## Design and benchmarks
+
+- [ARCHITECTURE.md](ARCHITECTURE.md) — components, data model, evaluation pipeline, threat model, and the design decisions (ADRs).
+- [BENCHMARKS.md](BENCHMARKS.md) — measured evaluation overhead and detection precision/recall, reproducible via `python benchmarks/run_benchmarks.py`.
+
 ## Quickstart
 
 Zero runtime dependencies. Until the first PyPI release (as `covenant-agents`):
