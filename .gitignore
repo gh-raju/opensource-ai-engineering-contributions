@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / TypeScript (tooling packages, added in later milestones)
+node_modules/
+*.tsbuildinfo
+.pnpm-store/
+
+# Secrets / local config — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Covenant run artifacts
+*.covenant.json
+covenant-report*.json
