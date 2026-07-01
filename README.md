@@ -20,7 +20,7 @@ tool call — against declarative invariants, and fails the build when one is vi
 
 ---
 
-## The problem, in plain English
+## The problem:
 
 A team can build an impressive agent demo in a weekend — then get stuck for months before
 production. The blocker is rarely *"the answer was low quality."* It's that **nobody can prove
