@@ -8,7 +8,7 @@ budgets) **and** *within the identity and permissions it was granted* (least pri
 scope escalation). It evaluates the agent's whole **trajectory** — every reasoning step and
 tool call — against declarative invariants, and fails the build when one is violated.
 
-[![CI](https://github.com/gh-raju/opensource-ai-engineering-contributions/actions/workflows/ci.yml/badge.svg)](https://github.com/gh-raju/opensource-ai-engineering-contributions/actions/workflows/ci.yml)
+[![CI](https://github.com/gh-raju/covenant/actions/workflows/ci.yml/badge.svg)](https://github.com/gh-raju/covenant/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-Apache--2.0-green)
 ![Status](https://img.shields.io/badge/status-alpha%20(v0.1)-orange)
@@ -97,8 +97,8 @@ sequenceDiagram
 Zero runtime dependencies. Until the first PyPI release (as `covenant-agents`):
 
 ```bash
-git clone https://github.com/gh-raju/opensource-ai-engineering-contributions
-cd opensource-ai-engineering-contributions
+git clone https://github.com/gh-raju/covenant
+cd covenant
 pip install -e .
 covenant demo          # watch it block 5 unsafe scenarios and pass the benign one
 ```
