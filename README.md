@@ -166,6 +166,12 @@ hash-chained audit log, JIT-credential + revocation ("kill switch") checks, and 
 
 ---
 
+## Sponsorship
+
+This is an independently developed, clean-room open-source project. If you or your organization
+is interested in funding its continued development, please reach out by opening an issue on this
+repository.
+
 ## Clean-room
 
 This is an independent, from-scratch project. It contains no proprietary, employer-, client-, or
